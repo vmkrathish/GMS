@@ -1,0 +1,15 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+alembic>=1.13
+pydantic-settings>=2.4
+python-jose[cryptography]>=3.3
+bcrypt>=4.0
+python-multipart>=0.0.9
+cryptography>=42
+# Optional integrations
+firebase-admin>=6.5      # push notifications (multi-device FCM)
+# cloudinary>=1.40         # enable for image uploads (Step 6)
+requests>=2.31.0
+supabase>=2.0   # Supabase Storage, used only when env_config.IS_ONLINE = True
