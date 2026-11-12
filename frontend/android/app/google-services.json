@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "585041395098",
+    "project_id": "gms---get-my-service",
+    "storage_bucket": "gms---get-my-service.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585041395098:android:98606e56e1463805264e23",
+        "android_client_info": {
+          "package_name": "com.example.gms_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJFuR7v78E8B7YO6meMpxG9vyzqGLePR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+# ── Secrets — NEVER commit ──
+.env
+.env.*
+!.env.example
+**/secrets/
+*service-account*.json
+
+# ── Python ──
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# ── Flutter / Dart ──
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins*
+frontend/ios/Pods/
+
+# ── Node (legacy) ──
+node_modules/
+
+# ── OS / editor ──
+.DS_Store
+._*
+.idea/
+.vscode/
